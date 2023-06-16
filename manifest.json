@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Blokedex",
+    "version": "1.0",
+	 "action": {
+        "default_title": "Blokedex",
+        "default_popup": "popup.html"
+    },
+    "description": "Le blokédex",
+	"author": "Hikachhu",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab"],
+    "host_permissions": ["https://*.youtube.com/*"],
+    "short_name": "S",
+	"content_scripts": [
+        {
+            "matches": ["https://*.stefanvd.net/*"],
+            "js": ["content.js"]
+        }
+    ]
+}

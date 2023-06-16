@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/popup.css">
+  <style>
+    /* Styles pour le bouton */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    /* Styles pour le titre */
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Blokedex</h1>
+
+  <div>
+    <a href="#" id="ouvrir-blokedex" class="btn">Ouvrir le Blokedex</a>
+    <a href="#" id="capturer-profil" class="btn">Capturer le profil actuel</a>
+    <a href="#" id="enregistrer-profil" class="btn">Enregistrer un autre profil</a>
+    <a href="#" id="exporter" class="btn">Exporter</a>
+    <a href="#" id="importer" class="btn">Importer</a>
+  </div>
+
+  <script type="text/javascript" src="script/popup.js"></script>
+</body>
+</html>

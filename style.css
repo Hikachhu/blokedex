@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+    background-color: #f1f1f1;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-bottom: -1px; /* Fix for the 1px bottom border */
+    z-index: 999;
+}
+
+.tabs label {
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tabs [type=radio] {
+    display: none;  
+}
+
+.tabs [type=radio]:checked ~ label {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 70%;
+    background: #fff;
+    height: calc(70vh);
+    overflow: auto;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
