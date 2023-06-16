@@ -16,7 +16,8 @@ Ensuite cliquez sur "Charger l'extension non empaquetées" (ou quelque chose de 
 Vous devriez avoir quelque chose comme ca :
 ![image](https://github.com/Hikachhu/blokedex/assets/46454743/8f7ee654-0d1a-4609-af1c-423d0dd2881d)
 
-##Utilisation
+## Utilisation
+
 Cliquez sur l'extension ca devrais être assez claire ;-; En gros une page contenant la liste des informations des différents profils et leurs notes associées, puis 2 autre boutons d'ajout, soit par rapport à la page actuelle si on est sur twitter, sinon tout à la main.
 Puis 2 boutons d'import et export de données pour les passer d'un navigateur à l'autre, ou simplement les sauvegarder
 
